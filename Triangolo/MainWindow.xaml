@@ -1,0 +1,26 @@
+﻿<Window x:Class="Triangolo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Triangolo"
+        mc:Ignorable="d"
+        Title="Classificazione Triangolo" Background="Brown" Height="450" Width="800">
+    <Grid>
+        <Label Content="Tipo Triangolo" HorizontalAlignment="Left" Margin="381,18,0,0" VerticalAlignment="Top" Height="33" Width="99" FontSize="16" Background="#FFFFEA1D"/>
+        <Label Content="1° lato:" HorizontalAlignment="Left" Margin="81,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="2° lato:" HorizontalAlignment="Left" Margin="81,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="3° lato:" HorizontalAlignment="Left" Margin="81,199,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLato1" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="154,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFFF63A"/>
+        <TextBox x:Name="txtLato2" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="154,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFFF63A"/>
+        <TextBox x:Name="txtLato3" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="154,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFFF63A"/>
+        <Label Content="Perimetro:" HorizontalAlignment="Left" Margin="495,107,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPerimetro" Content="" HorizontalAlignment="Left" Margin="593,110,0,0" VerticalAlignment="Top" Background="#FFFFF63A"/>
+        <Label Content="Area:" HorizontalAlignment="Left" Margin="495,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblArea" Content="" HorizontalAlignment="Left" Margin="593,155,0,0" VerticalAlignment="Top" Background="#FFFFF63A"/>
+        <Button x:Name="btnCalcola" Content="Calcola" HorizontalAlignment="Left" Margin="564,326,0,0" VerticalAlignment="Top" Width="75" Background="#FF1FC4DE" Click="btnCalcola_Click" />
+        <Label Content="Triangolo" HorizontalAlignment="Left" Margin="483,273,0,0" VerticalAlignment="Top" Background="#FF910984" Foreground="White"/>
+        <Label x:Name="lblTipoTriangolo" Content="" HorizontalAlignment="Left" Margin="542,273,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF910984"/>
+
+    </Grid>
+</Window>
